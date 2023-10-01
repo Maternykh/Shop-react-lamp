@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Montserrat:wght@300&family=Rubik:wght@300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.Header {
+  background-color: rgb(158, 162, 159);
+  color: white;
+  padding: 5% 10%;
+  position: fixed;
+  width: 80%;
+  .cors {
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    padding: 3%;
+    border-radius: 15px;
+    .Order {
+      background-color: #bdbdbd;
+      border-radius: 15px;
+      padding: 1%;
+      margin-bottom: 2%;
+      .cors-item {
+        .contdel {
+          padding: 1% 31%;
+          background-color: white;
+          text-align: center;
+          border-radius: 15px;
+          transition: all ease 500ms;
+          font-size: 20px;
+          margin-top: 1%;
+          &:hover {
+            background-color: rgb(255, 44, 44);
+            cursor: pointer;
+          }
+          .del {
+            vertical-align: middle;
+          }
+        }
+        .cors-photoram {
+          display: flex;
+          .cors-img {
+            width: 25%;
+            border-radius: 15px;
+          }
+          .cors-title {
+            font-weight: bold;
+            padding: 1%;
+          }
+          .cors-price {
+            padding: 1%;
+          }
+        }
+      }
+    }
+  }
+  .Logo {
+    display: flex;
+    justify-content: space-between;
+    .NameShop {
+      font-size: 22px;
+      font-weight: bold;
+    }
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    .href {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      &:hover {
+        color: rgb(85, 85, 85);
+      }
+    }
+  }
+}
+.full-item {
+  position: fixed;
+  top: 76px;
+  display: flex;
+  padding: 3%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: 4px solid black;
+  .full-desc {
+    overflow-y: scroll;
+    height: 180px;
+  }
+  .full-full {
+    padding: 2%;
+    background-color: #bdbdbd;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 1%;
+    border: 4px solid transparent;
+    transition: all ease 500ms;
+    font-size: 20px;
+    &:hover {
+      cursor: pointer;
+      background-color: #ffffff;
+      border: 4px solid black;
+    }
+  }
+  .full-img {
+    width: 90%;
+    border-radius: 15px;
+    border: 4px solid black;
+    margin-left: 4%;
+  }
+  .full-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .full-price {
+    font-size: 20px;
+  }
+}
+.icon {
+  font-size: 25px;
+  vertical-align: middle;
+  transition: all ease 500ms;
+  &:hover {
+    transform: scale(1.25);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+}
+.items {
+  padding: 0% 5%;
+  .contorder {
+    margin-top: 2%;
+    display: flex;
+    .full {
+      padding: 1% 31%;
+      background-color: white;
+      text-align: center;
+      border-radius: 15px;
+      border: 4px solid rgb(191, 194, 192);
+      transition: all ease 500ms;
+      font-size: 20px;
+      vertical-align: middle;
+      &:hover {
+        background-color: rgb(191, 194, 192);
+        cursor: pointer;
+      }
+    }
+    .order {
+      padding: 2%;
+      background-color: white;
+      text-align: center;
+      border-radius: 15px;
+      border: 4px solid rgb(191, 194, 192);
+      transition: all ease 500ms;
+      margin-right: 2%;
+      &:hover {
+        background-color: rgb(191, 194, 192);
+        cursor: pointer;
+      }
+      .imgorder {
+        font-size: 20px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .air {
+    margin-bottom: 14%;
+  }
+  .item {
+    background-color: rgb(191, 194, 192);
+    padding: 1%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    border: 4px solid transparent;
+    transition: all ease 500ms;
+    &:hover {
+      background-color: white;
+      border: 4px solid black;
+    }
+    .photoram {
+      display: flex;
+      .price {
+        margin-left: 3%;
+        margin-top: 3%;
+        color: #696969;
+        font-size: 20px;
+      }
+      .title {
+        margin-left: 3%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #242424;
+      }
+      .img {
+        width: 25%;
+        border-radius: 15%;
+        border: 4px solid rgb(191, 194, 192);
+      }
+    }
+    
+  }
+}
